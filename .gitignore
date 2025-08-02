@@ -1,0 +1,41 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+venv310/
+.env
+*.env
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs & runtime files
+*.log
+*.toc
+*.zip
+*.pkg
+*.pyz
+latest_token.txt
+
+# HTML templates (keep these)
+!*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+*.iml

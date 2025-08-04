@@ -1,41 +1,28 @@
-# Python bytecode
-__pycache__/
+cat <<EOL >> .gitignore
+# Byte-compiled / optimized / DLL files
+_pycache_/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# Virtual environment
 venv/
-venv310/
-.env
-*.env
+.venv/
 
-# Build artifacts
+# Environment variables
+.env
+
+# Distribution / packaging
 build/
 dist/
-*.spec
+*.egg-info/
 
-# Executables
-*.exe
-*.dll
-*.so
-*.dylib
+# Testing / coverage
+.coverage
+.pytest_cache/
 
-# Logs & runtime files
-*.log
-*.toc
-*.zip
-*.pkg
-*.pyz
-latest_token.txt
-
-# HTML templates (keep these)
-!*.html
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE configs
+# IDE and editor settings
 .vscode/
 .idea/
-*.iml
+
+# Logs
+*.log
